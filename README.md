@@ -1,10 +1,7 @@
 # mac-tricks
 
+Many commands can be found here: https://www.defaults-write.com/
 
-
-
-
-# Dock
 
 ## Change the icon size in stacks: `CMD +` or `CMD -`
 
