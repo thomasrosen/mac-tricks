@@ -48,3 +48,15 @@ Source: https://www.makeuseof.com/tag/customise-mac-os-x-dock-hidden-terminal-co
 `defaults write com.apple.dock mouse-over-hilite-stack -boolean yes;killall Dock`
 Replace `yes`with `no`to reverse it.
 Source: http://osxdaily.com/2008/01/07/highlight-stack-items-on-hover/
+
+## Change the layout (rows and columns) of Launchpad
+Set the columns count: `defaults write com.apple.dock springboard-columns -int X`
+Set the rows count: `defaults write com.apple.dock springboard-rows -int X`
+Restart the Dock after the changes: `killall Dock`
+To Reset: Use the commands without `-int X`:
+`defaults delete com.apple.dock springboard-rows; defaults delete com.apple.dock springboard-columns; killall Dock`
+Source: https://www.defaults-write.com/change-the-layout-rows-and-columns-of-launchpad/
+
+## To reset the whole Launchpad
+`defaults write com.apple.dock ResetLaunchPad -bool TRUE; killall Dock`
+Source: https://www.defaults-write.com/change-the-layout-rows-and-columns-of-launchpad/
