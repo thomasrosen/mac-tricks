@@ -3,7 +3,8 @@
 Many commands can be found here: https://www.defaults-write.com/
 
 
-## Change the icon size in stacks: `CMD +` or `CMD -`
+## Change the icon size in stacks
+Press `CMD +` or `CMD -` when the stack is open.
 
 ## Only show active apps
 `defaults write com.apple.dock static-only -bool TRUE; killall Dock`
