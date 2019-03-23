@@ -2,6 +2,11 @@
 
 Many commands can be found here: https://www.defaults-write.com/
 
+## View all iCloud folder
+Folder created by apps are hidden. You can view the content after creating an alias to the storage location.
+You need to browse in list or column view. You otherwise get redirceted to the normal iCloud folder.
+`ln -s ~/Library/Mobile\ Documents/ ~/Desktop/Real\ iCloud\ Drive`
+Source: https://forums.macrumors.com/threads/icloud-drive-%C2%96-show-hidden-files.1759416/
 
 ## Change the icon size in stacks
 Press `CMD +` or `CMD -` when the stack is open.
